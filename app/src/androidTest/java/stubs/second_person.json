@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "حسین",
+        "last": "مرادی"
+      },
+      "location": {
+        "street": {
+          "number": 7780,
+          "name": "دیباجی"
+        },
+        "city": "بجنورد",
+        "state": "ایلام",
+        "country": "Iran",
+        "postcode": 72356,
+        "coordinates": {
+          "latitude": "18.3926",
+          "longitude": "-8.9354"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "hsyn.mrdy@example.com",
+      "login": {
+        "uuid": "5a4c432b-a374-4036-bf09-13b38b2f68bf",
+        "username": "angrymeercat178",
+        "password": "yyyyyy",
+        "salt": "PpDtapAU",
+        "md5": "19d5f417a02706df2d3272706f4a8647",
+        "sha1": "27a07d08f0e5f48060d949b12593a5fee1383e91",
+        "sha256": "7672b2ec91542c3056b8df9087e6cb63069e0df3d27e96e99eb766f5674c7034"
+      },
+      "dob": {
+        "date": "1956-10-19T23:31:58.148Z",
+        "age": 68
+      },
+      "registered": {
+        "date": "2017-04-18T11:14:48.998Z",
+        "age": 8
+      },
+      "phone": "057-19357959",
+      "cell": "0982-068-1414",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/20.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/20.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/20.jpg"
+      },
+      "nat": "IR"
+    }
+  ],
+  "info": {
+    "seed": "9b67644af0d0faa6",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
