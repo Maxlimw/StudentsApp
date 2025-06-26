@@ -31,11 +31,10 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
-}
-
-testOptions {
-    animationsDisabled = true
-    execution 'ANDROIDX_TEST_ORCHESTRATOR'
+    testOptions {
+        animationsDisabled = true
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+    }
 }
 
 dependencies {
