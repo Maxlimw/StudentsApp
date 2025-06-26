@@ -19,7 +19,7 @@ class AddAndEditTest : BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("responses/first_person_from_network_response.json"))
+                        .withBody(fileToString("/responses/first_person.json"))
                 )
         )
 
@@ -40,7 +40,7 @@ class AddAndEditTest : BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("responses/first_person_from_network_response.json"))
+                        .withBody(fileToString("/responses/first_person.json"))
                 )
         )
 

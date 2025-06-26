@@ -19,7 +19,7 @@ class MainScreenActivityTest: BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/stubs/first_person.json"))
+                        .withBody(fileToString("/responses/first_person.json"))
                 )
         )
 
@@ -42,7 +42,7 @@ class MainScreenActivityTest: BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/stubs/first_person.json"))
+                        .withBody(fileToString("/responses/first_person.json"))
                 )
         )
         stubFor(
@@ -53,7 +53,7 @@ class MainScreenActivityTest: BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/stubs/second_person.json"))
+                        .withBody(fileToString("/responses/second_person.json"))
                 )
         )
         stubFor(
@@ -63,7 +63,7 @@ class MainScreenActivityTest: BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/stubs/third_person.json"))
+                        .withBody(fileToString("/responses/third_person.json"))
                 )
         )
 
@@ -96,7 +96,7 @@ class MainScreenActivityTest: BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/stubs/first_person.json"))
+                        .withBody(fileToString("/responses/first_person.json"))
                 )
         )
         stubFor(
@@ -107,7 +107,7 @@ class MainScreenActivityTest: BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/stubs/second_person.json"))
+                        .withBody(fileToString("/responses/second_person.json"))
                 )
         )
         stubFor(
@@ -117,7 +117,7 @@ class MainScreenActivityTest: BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/stubs/third_person.json"))
+                        .withBody(fileToString("/responses/third_person.json"))
                 )
         )
 
