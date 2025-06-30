@@ -19,7 +19,7 @@ class AddAndEditTest : BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/responses/first_person.json"))
+                        .withBody(fileToString("responses/first_person.json"))
                 )
         )
 
@@ -28,7 +28,7 @@ class AddAndEditTest : BaseTest() {
             clickPersonOnPosition(0)
         }
         with(PersonScreen(this)) {
-            checkPersonFields("Edvard", "Wojcik", "М", "1983-09-16"  )
+            checkPersonFields("Nellie", "Green", "W", "1977-01-01"  )
         }
     }
 
@@ -40,7 +40,7 @@ class AddAndEditTest : BaseTest() {
                 .willReturn(
                     aResponse()
                         .withStatus(200)
-                        .withBody(fileToString("/responses/first_person.json"))
+                        .withBody(fileToString("responses/first_person.json"))
                 )
         )
 
