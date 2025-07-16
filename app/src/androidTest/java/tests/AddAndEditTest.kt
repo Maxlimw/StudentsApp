@@ -28,7 +28,7 @@ class AddAndEditTest : BaseTest() {
             clickPersonOnPosition(0)
         }
         with(PersonScreen(this)) {
-            checkPersonFields("Nellie", "Green", "W", "1977-01-01"  )
+            checkPersonFields("Nellie", "Green", "Ж", "1977-01-01")
         }
     }
 
