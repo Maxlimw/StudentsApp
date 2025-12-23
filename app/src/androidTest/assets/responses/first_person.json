@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Nellie",
+        "last": "Green"
+      },
+      "location": {
+        "street": {
+          "number": 8008,
+          "name": "Hillcrest Rd"
+        },
+        "city": "Busselton",
+        "state": "Victoria",
+        "country": "Australia",
+        "postcode": 8496,
+        "coordinates": {
+          "latitude": "-84.1177",
+          "longitude": "78.0787"
+        },
+        "timezone": {
+          "offset": "+1:00",
+          "description": "Brussels, Copenhagen, Madrid, Paris"
+        }
+      },
+      "email": "nellie.green@example.com",
+      "login": {
+        "uuid": "b5b7c54c-cac6-41d8-8908-e99a570adc33",
+        "username": "orangewolf631",
+        "password": "7007",
+        "salt": "NYAf2GVM",
+        "md5": "03f4daaf4550c9a095b7f9a13e9f3d88",
+        "sha1": "1fb6b3bb9991d80b5acff3018574f728a99155b6",
+        "sha256": "703a3b484b23d87ef688efdab586ff36df812914c3b4d245f16d0560361e587e"
+      },
+      "dob": {
+        "date": "1977-01-01T02:57:04.030Z",
+        "age": 48
+      },
+      "registered": {
+        "date": "2014-11-14T06:50:11.899Z",
+        "age": 10
+      },
+      "phone": "04-0687-2126",
+      "cell": "0438-887-924",
+      "id": {
+        "name": "TFN",
+        "value": "475344793"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/32.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/32.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/32.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "info": {
+    "seed": "5312ae85a5ef7414",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

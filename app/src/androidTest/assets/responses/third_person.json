@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Vedant",
+        "last": "Rajesh"
+      },
+      "location": {
+        "street": {
+          "number": 6035,
+          "name": "Mall Rd"
+        },
+        "city": "Berhampur",
+        "state": "Meghalaya",
+        "country": "India",
+        "postcode": 51016,
+        "coordinates": {
+          "latitude": "10.4771",
+          "longitude": "-64.1869"
+        },
+        "timezone": {
+          "offset": "+3:30",
+          "description": "Tehran"
+        }
+      },
+      "email": "vedant.rajesh@example.com",
+      "login": {
+        "uuid": "fb9972a7-6057-44d8-b611-5375bab7681f",
+        "username": "beautifulcat416",
+        "password": "gesperrt",
+        "salt": "AauDrYHT",
+        "md5": "8bcd92cc3388dfd18221731e8aed5bca",
+        "sha1": "0277a5c2c024e24bc9160178724bc6a280ba6259",
+        "sha256": "fcad3f18f9c29f20584d55bf9c9673ea80730ab890f3f2db600fa873ca663309"
+      },
+      "dob": {
+        "date": "1958-02-28T16:02:43.786Z",
+        "age": 67
+      },
+      "registered": {
+        "date": "2011-01-18T10:56:34.367Z",
+        "age": 14
+      },
+      "phone": "9674350979",
+      "cell": "9527611182",
+      "id": {
+        "name": "UIDAI",
+        "value": "626155240364"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/34.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/34.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/34.jpg"
+      },
+      "nat": "IN"
+    }
+  ],
+  "info": {
+    "seed": "36137f4e5042ec51",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
